@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.backend_hasura">
+    <uses-permission android:name="android.permission.INTERNET" />
    <application
         android:label="backend_hasura"
         android:name="${applicationName}"
